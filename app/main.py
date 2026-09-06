@@ -31,7 +31,7 @@ scorer = MLScorer()
     """
 )
 async def score_transaction(
-        # Используем alias и description, чтобы скрыть технические имена и оставить только чистый текст
+        
         amount: float = Form(
             1500.5,
             gt=0,
