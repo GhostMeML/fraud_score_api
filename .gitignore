@@ -1,0 +1,13 @@
+# Среда окружения и кэш
+venv/
+.env
+.idea/
+__pycache__/
+*.pyc
+
+# Локальная база данных и тяжелые сгенерированные датасеты
+fraud_api.db
+transactions.csv
+
+# macOS (на всякий случай)
+.DS_Store
